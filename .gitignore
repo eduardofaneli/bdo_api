@@ -1,0 +1,7 @@
+
+*.rar
+*.wsgi
+
+/env/
+.vscode
+*.pyc
