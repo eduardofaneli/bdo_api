@@ -23,7 +23,7 @@ def main():
     initializa_app(app)
     log.info('>>>>> Starting development server at http://{}/ <<<<<'.format(app.config['SERVER_NAME']))
 
-    app.run(debug=True)
+    app.run()
 
 if __name__ == "__main__":
     main()
