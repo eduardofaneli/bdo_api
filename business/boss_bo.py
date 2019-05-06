@@ -10,27 +10,27 @@ class BossRoutes(object):
 
     def load_json(self):
         try:                                
-            file = open('./routes/table_boss.json', encoding='UTF-8').read()                    
+            file = open('./business/table_boss.json', encoding='UTF-8').read()                    
             return json.loads(file)            
         except Exception as ex:                    
-            return jsonify({'success': False, 'message': ex.args}), 401    
+            return {'success': False, 'message': ex.args}    
 
     def get_table(self):
         try:            
-            return jsonify(self.full_json), 200
+            return self.full_json            
         except Exception as ex:
-            return jsonify({'success': False, 'message': ex.args}), 401   
+            return {'success': False, 'message': ex.args}   
 
     def get_today(self):
         try:
-            return jsonify(self.boss_json[date.today().weekday()]), 200
+            return self.boss_json[date.today().weekday()]
         except Exception as ex:
-            return jsonify({'success': False, 'message': ex.args}), 401    
+            return {'success': False, 'message': ex.args}    
 
     def get_by_day(self, day):
         try:            
                             
-            return jsonify(self.boss_json[int(day) - 1]), 200
+            return self.boss_json[int(day) - 1]
         except Exception as ex:
-            return jsonify({'success': False, 'message': ex.args}), 401    
+            return {'success': False, 'message': ex.args}    
 
