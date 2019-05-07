@@ -5,3 +5,4 @@
 /env/
 .vscode
 *.pyc
+get-pip.py

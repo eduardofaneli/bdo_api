@@ -6,6 +6,6 @@ api = Api(version="1.0", title="BDO API", description="API em desenvolvimento co
 
 @api.errorhandler
 def default_error_handler(e):
-    message= "A unhandled exception ocurred."
+    message= "A unhandled exception ocurred. " + str(e)
     log.exception(message)
     return {"message": message}, 500
