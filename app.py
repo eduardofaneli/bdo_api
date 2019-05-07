@@ -1,3 +1,4 @@
+import os
 from flask import Flask, Blueprint
 from flask_cors import CORS
 from log import log
@@ -23,7 +24,8 @@ def main():
     initializa_app(app)
     log.info('>>>>> Starting development server at http://{}/ <<<<<'.format(app.config['SERVER_NAME']))
 
-    app.run()
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host='0.0.0.0', port=port)
 
 if __name__ == "__main__":
     main()
