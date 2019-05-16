@@ -18,8 +18,7 @@
             "hours": [
                 {"hour": "02:00", "boss": "Karanda & Kzarka"},
                 {"hour": "11:00", "boss": "Nouver"},
-                {"hour": "16:00", "boss": "Kutum & Kzarka"},
-                {"hour": "18:00", "boss": ""},
+                {"hour": "16:00", "boss": "Kutum & Kzarka"},                
                 {"hour": "20:00", "boss": "Nouver & Kutum"},
                 {"hour": "23:30", "boss": "Garmoth"}
             ]
@@ -31,7 +30,6 @@
                 {"hour": "02:00", "boss": "Kutum"},
                 {"hour": "11:00", "boss": "Kzarka"},
                 {"hour": "16:00", "boss": "Nouver & Kutum"},
-                {"hour": "18:00", "boss": ""},
                 {"hour": "20:00", "boss": "Karanda & Kzarka"},
                 {"hour": "23:30", "boss": "Offin"}
             ]        
@@ -43,7 +41,6 @@
                 {"hour": "02:00", "boss": "Kzarka"},
                 {"hour": "11:00", "boss": "Kutum & Karanda"},
                 {"hour": "16:00", "boss": "Kzarka & Nouver"},
-                {"hour": "18:00", "boss": ""},
                 {"hour": "20:00", "boss": "Quint & Muraka"},
                 {"hour": "23:30", "boss": "Garmoth"}
             ]           
@@ -55,7 +52,6 @@
                 {"hour": "02:00", "boss": "Karanda & Kutum"},
                 {"hour": "11:00", "boss": "Nouver & Karanda"},
                 {"hour": "16:00", "boss": "Kutum & Kzarka"},
-                {"hour": "18:00", "boss": ""},
                 {"hour": "20:00", "boss": "Nouver & Kutum"},
                 {"hour": "23:30", "boss": "Offin"}
             ]           
@@ -67,7 +63,6 @@
                 {"hour": "02:00", "boss": "Karanda"},
                 {"hour": "11:00", "boss": "Nouver"},
                 {"hour": "16:00", "boss": "Kutum & Kzarka"},
-                {"hour": "18:00", "boss": ""},
                 {"hour": "20:00", "boss": "Nouver & Kzarka"},
                 {"hour": "23:30", "boss": "Garmoth"}
             ]           
@@ -78,10 +73,8 @@
             "hours": [
                 {"hour": "02:00", "boss": "Kzarka"},
                 {"hour": "11:00", "boss": "Kzarka & Karanda"},
-                {"hour": "16:00", "boss": "Nouver & Kutum"},
-                {"hour": "18:00", "boss": ""},
-                {"hour": "20:00", "boss": "Quint & Muraka"},
-                {"hour": "23:30", "boss": ""}
+                {"hour": "16:00", "boss": "Nouver & Kutum"},                
+                {"hour": "20:00", "boss": "Quint & Muraka"}
             ]                        
         }
     ],
