@@ -3,6 +3,7 @@
 *.wsgi
 
 /env/
+/venv/
 .vscode
 *.pyc
 get-pip.py

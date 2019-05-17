@@ -2,7 +2,7 @@
     "days": [
         {
             "__id": 1,
-            "day": "Sunday",
+            "day": "Domingo",
             "hours": [
                 {"hour": "02:00", "boss": "Nouver"},
                 {"hour": "11:00", "boss": "Nouver & Kutum"},
@@ -14,7 +14,7 @@
         },        
         {
             "__id": 2,
-            "day": "Monday",
+            "day": "Segunda-Feira",
             "hours": [
                 {"hour": "02:00", "boss": "Karanda & Kzarka"},
                 {"hour": "11:00", "boss": "Nouver"},
@@ -25,7 +25,7 @@
         },
         {
             "__id": 3,
-            "day": "Tuesday",
+            "day": "Terça-Feira",
             "hours": [
                 {"hour": "02:00", "boss": "Kutum"},
                 {"hour": "11:00", "boss": "Kzarka"},
@@ -36,7 +36,7 @@
         },
         {
             "__id": 4,
-            "day": "Wednesday",
+            "day": "Quarta-Feira",
             "hours": [
                 {"hour": "02:00", "boss": "Kzarka"},
                 {"hour": "11:00", "boss": "Kutum & Karanda"},
@@ -47,7 +47,7 @@
         },
         {
             "__id": 5,
-            "day": "Thursday",
+            "day": "Quinta-Feira",
             "hours": [
                 {"hour": "02:00", "boss": "Karanda & Kutum"},
                 {"hour": "11:00", "boss": "Nouver & Karanda"},
@@ -58,7 +58,7 @@
         },
         {
             "__id": 6,
-            "day": "Friday",
+            "day": "Sexta-Feira",
             "hours": [
                 {"hour": "02:00", "boss": "Karanda"},
                 {"hour": "11:00", "boss": "Nouver"},
@@ -69,7 +69,7 @@
         },
         {
             "__id": 7,
-            "day": "Saturday",
+            "day": "Sabado",
             "hours": [
                 {"hour": "02:00", "boss": "Kzarka"},
                 {"hour": "11:00", "boss": "Kzarka & Karanda"},
